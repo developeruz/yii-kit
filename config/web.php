@@ -1,6 +1,6 @@
 <?php
-
-//Dotenv::load('', '.env');
+$dotenv = new Dotenv\Dotenv(dirname(__DIR__), file_exists(dirname(__DIR__). DIRECTORY_SEPARATOR . '.env.local') ? '.env.local' : '.env');
+$dotenv->load();
 
 $params = require(__DIR__ . '/params.php');
 
@@ -13,9 +13,9 @@ $config = [
     'components' => require(__DIR__ . '/components.php'),
     'params' => $params,
     'modules' => require(__DIR__ . '/modules.php'),
-    'as AppBehavior' => [
-        'class' => 'app\components\AppBehavior',
-    ]
+//    'as AppBehavior' => [
+//        'class' => 'app\components\AppBehavior',
+//    ]
 ];
 
 if (YII_ENV_DEV) {

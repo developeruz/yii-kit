@@ -14,7 +14,7 @@
         "yiisoft/yii2": "~2.0.5",
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0",
-        "vlucas/phpdotenv": "~1.0"
+        "vlucas/phpdotenv": "~2.4"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
@@ -38,8 +38,7 @@
             "yii\\composer\\Installer::postCreateProject"
         ],
         "post-root-package-install": [
-            "php -r \"copy('.env.example', '.env');\"",
-            "php -r \"copy('.env.example', '.env.local');\""
+            "php -r \"copy('.env.example', '.env');\""
         ]
     },
     "extra": {

@@ -2,8 +2,8 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => env('APP_DB_DSN', 'mysql:host=127.0.0.1;dbname=kit'),
-    'username' => 'root',
-    'password' => 'root',
-    'charset' => 'utf8',
+    'dsn' => env('APP_DB_DSN', 'mysql:host=localhost;dbname=mydbname'),
+    'username' => env('APP_DB_USER', 'dbuser'),
+    'password' => env('APP_DB_PASSWORD','dbpassword'),
+    'charset' => env('APP_DB_ENCODING', 'utf8'),
 ];
