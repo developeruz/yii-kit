@@ -13,9 +13,9 @@ $config = [
     'components' => require(__DIR__ . '/components.php'),
     'params' => $params,
     'modules' => require(__DIR__ . '/modules.php'),
-//    'as AppBehavior' => [
-//        'class' => 'app\components\AppBehavior',
-//    ]
+    'as AppBehavior' => [
+        'class' => 'developeruz\yii_kit_core\behaviors\AppBehavior',
+    ]
 ];
 
 if (YII_ENV_DEV) {

@@ -36,6 +36,10 @@ return [
         'enablePrettyUrl' => true,
         'showScriptName' => false,
         'rules' => [
+            '<module:\w+>/<controller:\w+>/<action:(\w|-)+>/<id:\d+>' => '<module>/<controller>/<action>',
+            '<module:\w+>/<controller:\w+>/<action:(\w|-)+>' => '<module>/<controller>/<action>',
+            '<controller:\w+>/<action:(\w|-)+>/<id:\d+>' => '<controller>/<action>',
+            '<controller:\w+>/<action:(\w|-)+>' => '<controller>/<action>',
         ],
-    ],
+    ]
 ];
