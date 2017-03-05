@@ -41,5 +41,8 @@ return [
             '<controller:\w+>/<action:(\w|-)+>/<id:\d+>' => '<controller>/<action>',
             '<controller:\w+>/<action:(\w|-)+>' => '<controller>/<action>',
         ],
-    ]
+    ],
+    'authManager' => [
+        'class' => 'yii\rbac\DbManager',
+    ],
 ];

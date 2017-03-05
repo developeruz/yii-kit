@@ -14,7 +14,24 @@ $config = [
     'params' => $params,
     'modules' => require(__DIR__ . '/modules.php'),
     'as AppBehavior' => [
-        'class' => 'developeruz\yii_kit_core\behaviors\AppBehavior',
+        'class' => developeruz\yii_kit_core\behaviors\AppBehavior::className(),
+    ],
+    'as AccessBehavior' => [
+        'class' => \developeruz\db_rbac\behaviors\AccessBehavior::className(),
+        'protect' => ['admin', 'user'],
+        'login_url' => '/user/security/login',
+        'rules' => [
+            'user/security' => [['actions' => ['login'], 'allow' => true ],
+                                ['actions' => ['logout'], 'roles' => ['@'], 'allow' => true ]],
+            'user/settings' => [['roles' => ['@'], 'allow' => true ]],
+            'user/registration' => [['actions' => ['register'], 'allow' => true ]]
+        ]
+    ],
+    'controllerMap' =>
+    [
+        'install' => [
+            'class' => '\app\install\InstallController'
+        ]
     ]
 ];
 

@@ -22,7 +22,8 @@
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0",
         "vlucas/phpdotenv": "~2.4",
-        "developeruz/yii-kit-core": "dev-master"
+        "developeruz/yii-kit-core": "dev-master",
+        "dektrium/yii2-user": "^0.9.12"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",

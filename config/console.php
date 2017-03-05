@@ -1,4 +1,6 @@
 <?php
+$dotenv = new Dotenv\Dotenv(dirname(__DIR__), file_exists(dirname(__DIR__). DIRECTORY_SEPARATOR . '.env.local') ? '.env.local' : '.env');
+$dotenv->load();
 
 $params = require(__DIR__ . '/params.php');
 $db = require(__DIR__ . '/db.php');
@@ -21,6 +23,14 @@ $config = [
             ],
         ],
         'db' => $db,
+        'authManager' => [
+            'class' => 'yii\rbac\DbManager',
+        ]
+    ],
+    'modules' => [
+        'user' => [
+            'class' => 'dektrium\user\Module',
+        ],
     ],
     'params' => $params,
     /*
