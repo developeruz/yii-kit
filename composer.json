@@ -23,7 +23,11 @@
         "yiisoft/yii2-swiftmailer": "~2.0.0",
         "vlucas/phpdotenv": "~2.4",
         "developeruz/yii-kit-core": "dev-master",
-        "dektrium/yii2-user": "^0.9.12"
+        "dektrium/yii2-user": "^0.9.12",
+        "loveorigami/yii2-plugins-system": "^3.1",
+        "loveorigami/yii2-shortcodes-pack": "^1.1",
+        "yii2mod/yii2-comments": "*",
+        "yii2mod/yii2-cms": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",

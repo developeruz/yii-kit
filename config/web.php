@@ -9,7 +9,7 @@ Yii::setAlias('@uploads', dirname(__DIR__) . DIRECTORY_SEPARATOR . 'uploads');
 $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
-    'bootstrap' => ['log'],
+    'bootstrap' => ['log', 'plugins'],
     'components' => require(__DIR__ . '/components.php'),
     'params' => $params,
     'modules' => require(__DIR__ . '/modules.php'),
@@ -18,20 +18,16 @@ $config = [
     ],
     'as AccessBehavior' => [
         'class' => \developeruz\db_rbac\behaviors\AccessBehavior::className(),
-        'protect' => ['admin', 'user'],
-        'login_url' => '/user/security/login',
+        'protect' => ['admin'],
         'rules' => [
-            'user/security' => [['actions' => ['login'], 'allow' => true ],
-                                ['actions' => ['logout'], 'roles' => ['@'], 'allow' => true ]],
-            'user/settings' => [['roles' => ['@'], 'allow' => true ]],
-            'user/registration' => [['actions' => ['register'], 'allow' => true ]]
         ]
     ],
     'controllerMap' =>
     [
         'install' => [
             'class' => '\app\install\InstallController'
-        ]
+        ],
+        'comments' => 'yii2mod\comments\controllers\ManageController',
     ]
 ];
 

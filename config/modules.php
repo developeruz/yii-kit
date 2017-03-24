@@ -9,4 +9,11 @@ return [
             'admin' => 'app\plugins\users\AdminController'
         ],
     ],
+    'plugins' => [
+        'class' => 'lo\plugins\Module',
+        'pluginsDir'=>[
+            '@lo/plugins/core',
+            '@lo/shortcodes'
+        ]
+    ],
 ];

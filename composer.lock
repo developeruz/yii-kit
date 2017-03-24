@@ -4,9 +4,60 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "eedae5acaf32bbc8a6d6a4ccb410d082",
-    "content-hash": "d6b8c5dad0776e670cf07c4808ef7cbe",
+    "hash": "e375f8e9fd2ddfc6e82c1a28dc9a7b14",
+    "content-hash": "fe7e4a3c4ed7df991e7be7c8435ad4d2",
     "packages": [
+        {
+            "name": "asofter/yii2-imperavi-redactor",
+            "version": "dev-master",
+            "target-dir": "yii/imperavi",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/asofter/yii2-imperavi-redactor.git",
+                "reference": "5e2f7cfd8ebdb6bc30d495d51bb246321b0484a2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/asofter/yii2-imperavi-redactor/zipball/5e2f7cfd8ebdb6bc30d495d51bb246321b0484a2",
+                "reference": "5e2f7cfd8ebdb6bc30d495d51bb246321b0484a2",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-0": {
+                    "yii\\imperavi\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Yaremchuk",
+                    "email": "alwex10@gmail.com"
+                },
+                {
+                    "name": "Veaceslav Medvedev",
+                    "email": "slavcopost@gmail.com"
+                },
+                {
+                    "name": "Alexander Makarov",
+                    "email": "sam@rmcreative.ru",
+                    "homepage": "http://rmcreative.ru/"
+                }
+            ],
+            "description": "Imperavi Redactor WYSIWYG widget (OEM-licensed for Yii 2)",
+            "keywords": [
+                "imperavi",
+                "imperavi redactor",
+                "yii"
+            ],
+            "time": "2017-02-28 16:15:10"
+        },
         {
             "name": "bower-asset/bootstrap",
             "version": "v3.3.7",
@@ -141,6 +192,44 @@
             ]
         },
         {
+            "name": "bower-asset/jsoneditor",
+            "version": "v3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/josdejong/jsoneditor.git",
+                "reference": "63e61dd817f771782c3bf6eafaf6f1069e034569"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/josdejong/jsoneditor/zipball/63e61dd817f771782c3bf6eafaf6f1069e034569",
+                "reference": "63e61dd817f771782c3bf6eafaf6f1069e034569",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "jsoneditor.min.js",
+                    "jsoneditor.min.css"
+                ],
+                "bower-asset-ignore": [
+                    "app",
+                    "build",
+                    "downloads",
+                    "src",
+                    "misc",
+                    "node_modules",
+                    "test",
+                    "tools",
+                    ".idea",
+                    "gulpfile.js",
+                    "package.json",
+                    ".npmignore",
+                    ".gitignore"
+                ]
+            },
+            "description": "A web-based tool to view, edit and format JSON"
+        },
+        {
             "name": "bower-asset/punycode",
             "version": "v1.3.2",
             "source": {
@@ -165,6 +254,40 @@
                     "Gruntfile.js",
                     "node_modules",
                     "package.json"
+                ]
+            }
+        },
+        {
+            "name": "bower-asset/x-editable",
+            "version": "1.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vitalets/x-editable.git",
+                "reference": "f32802f48a33b8a7ec9cca32eec4ca844b7d39b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vitalets/x-editable/zipball/f32802f48a33b8a7ec9cca32eec4ca844b7d39b2",
+                "reference": "f32802f48a33b8a7ec9cca32eec4ca844b7d39b2",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.6"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-ignore": [
+                    "CHANGELOG.txt",
+                    "Gruntfile.js",
+                    "LICENSE-MIT",
+                    "Package.nuspec",
+                    "README.md",
+                    "composer.json",
+                    "package.json",
+                    "node_modules",
+                    "components",
+                    "src",
+                    "test"
                 ]
             }
         },
@@ -261,6 +384,48 @@
                 "markdown-extra"
             ],
             "time": "2016-12-11 13:37:11"
+        },
+        {
+            "name": "components/highlightjs",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/highlightjs.git",
+                "reference": "3fd01f95016934d7945f3900f746851a1233d5a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/highlightjs/zipball/3fd01f95016934d7945f3900f746851a1233d5a8",
+                "reference": "3fd01f95016934d7945f3900f746851a1233d5a8",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "highlight.pack.min.js"
+                    ],
+                    "files": [
+                        "styles/*"
+                    ],
+                    "shim": {
+                        "exports": "hljs"
+                    }
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Sagalaev",
+                    "email": "maniac@softwaremaniacs.org",
+                    "homepage": "http://softwaremaniacs.org"
+                }
+            ],
+            "description": "Highlight.js highlights syntax in code examples on blogs, forums and in fact on any web pages.",
+            "time": "2017-03-09 08:34:37"
         },
         {
             "name": "dektrium/yii2-user",
@@ -362,47 +527,6 @@
             "time": "2017-02-22 13:03:29"
         },
         {
-            "name": "developeruz/yii2-db-rbac",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/developeruz/yii2-db-rbac.git",
-                "reference": "67a2b4272799ede6aff5da63a2b041a15d5c43e3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/developeruz/yii2-db-rbac/zipball/67a2b4272799ede6aff5da63a2b041a15d5c43e3",
-                "reference": "67a2b4272799ede6aff5da63a2b041a15d5c43e3",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "*"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "developeruz\\db_rbac\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Elvira Sheina",
-                    "email": "elleuz@gmail.com",
-                    "homepage": "http://developer.uz"
-                }
-            ],
-            "description": "Dynamic control of access rights in YII2",
-            "keywords": [
-                "rbac",
-                "yii"
-            ],
-            "time": "2017-02-11 08:59:09"
-        },
-        {
             "name": "ezyang/htmlpurifier",
             "version": "v4.8.0",
             "source": {
@@ -445,6 +569,294 @@
                 "html"
             ],
             "time": "2016-07-16 12:58:58"
+        },
+        {
+            "name": "loveorigami/yii2-jsoneditor",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/loveorigami/yii2-jsoneditor.git",
+                "reference": "cfbc01e868cd0cec2f9a6bd0efe8e04e4c3eeda5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/loveorigami/yii2-jsoneditor/zipball/cfbc01e868cd0cec2f9a6bd0efe8e04e4c3eeda5",
+                "reference": "cfbc01e868cd0cec2f9a6bd0efe8e04e4c3eeda5",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jsoneditor": "~3.1",
+                "yiisoft/yii2": "2.0.*"
+            },
+            "require-dev": {
+                "yiisoft/yii2-debug": "2.0.*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "lo\\widgets\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Kozhevnikov",
+                    "email": "b37hr3z3n@gmail.com"
+                },
+                {
+                    "name": "Evgeny Dubovitsky",
+                    "email": "flynn068@gmail.com"
+                },
+                {
+                    "name": "Pavel Fedotov",
+                    "email": "fps.06@mail.ru"
+                },
+                {
+                    "name": "Andrey Lukyanov",
+                    "email": "loveorigami@mail.ru"
+                }
+            ],
+            "description": "Yii2 jsoneditor widget",
+            "keywords": [
+                "editor",
+                "json",
+                "jsoneditor",
+                "yii2"
+            ],
+            "time": "2015-07-31 07:07:16"
+        },
+        {
+            "name": "loveorigami/yii2-plugins-system",
+            "version": "3.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/loveorigami/yii2-plugins-system.git",
+                "reference": "36ed5d08d1ee538e61022798998c12e016c6c567"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/loveorigami/yii2-plugins-system/zipball/36ed5d08d1ee538e61022798998c12e016c6c567",
+                "reference": "36ed5d08d1ee538e61022798998c12e016c6c567",
+                "shasum": ""
+            },
+            "require": {
+                "loveorigami/yii2-jsoneditor": "*",
+                "php": ">=5.5.0",
+                "yiisoft/yii2": ">=2.0.6"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "lo\\plugins\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "LoveOrigami",
+                    "homepage": "https://github.com/loveorigami/"
+                }
+            ],
+            "description": "Plugins system as WP for Yii2",
+            "keywords": [
+                "event",
+                "plugin",
+                "yii2",
+                "yii2-plugin"
+            ],
+            "time": "2017-02-05 11:11:10"
+        },
+        {
+            "name": "loveorigami/yii2-shortcodes-pack",
+            "version": "1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/loveorigami/yii2-shortcodes-pack.git",
+                "reference": "e5d7adadc92ee45a8bdea7fb5676ae6c2d5d3492"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/loveorigami/yii2-shortcodes-pack/zipball/e5d7adadc92ee45a8bdea7fb5676ae6c2d5d3492",
+                "reference": "e5d7adadc92ee45a8bdea7fb5676ae6c2d5d3492",
+                "shasum": ""
+            },
+            "require": {
+                "components/highlightjs": "*",
+                "loveorigami/yii2-plugins-system": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "lo\\shortcodes\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "LoveOrigami",
+                    "homepage": "https://github.com/loveorigami"
+                }
+            ],
+            "description": "Shortcodes collection as WP for Yii2",
+            "keywords": [
+                "plugin",
+                "shortcode",
+                "yii2"
+            ],
+            "time": "2017-01-19 10:56:14"
+        },
+        {
+            "name": "nesbot/carbon",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/briannesbitt/Carbon.git",
+                "reference": "926aee5ab38c2868816aa760f862a85ad01cb61a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/926aee5ab38c2868816aa760f862a85ad01cb61a",
+                "reference": "926aee5ab38c2868816aa760f862a85ad01cb61a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "symfony/translation": "~2.6 || ~3.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2",
+                "phpunit/phpunit": "~4.0 || ~5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.23-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Carbon\\": "src/Carbon/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brian Nesbitt",
+                    "email": "brian@nesbot.com",
+                    "homepage": "http://nesbot.com"
+                }
+            ],
+            "description": "A simple API extension for DateTime.",
+            "homepage": "http://carbon.nesbot.com",
+            "keywords": [
+                "date",
+                "datetime",
+                "time"
+            ],
+            "time": "2017-02-06 22:02:47"
+        },
+        {
+            "name": "paulzi/yii2-adjacency-list",
+            "version": "v2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paulzi/yii2-adjacency-list.git",
+                "reference": "9371a006a82fcc64220ec084d51f5f7e431bda6c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paulzi/yii2-adjacency-list/zipball/9371a006a82fcc64220ec084d51f5f7e431bda6c",
+                "reference": "9371a006a82fcc64220ec084d51f5f7e431bda6c",
+                "shasum": ""
+            },
+            "require": {
+                "paulzi/yii2-sortable": "~1.0",
+                "php": ">=5.4.0",
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "require-dev": {
+                "phpunit/dbunit": "~1.0",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "paulzi\\adjacencyList\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PaulZi",
+                    "email": "pavel.zimakoff@gmail.com"
+                }
+            ],
+            "description": "Adjacency List Behavior for Yii2",
+            "keywords": [
+                "adjacency list",
+                "yii2"
+            ],
+            "time": "2016-10-13 22:16:03"
+        },
+        {
+            "name": "paulzi/yii2-sortable",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paulzi/yii2-sortable.git",
+                "reference": "2d51e8a923acb4cc385e8d28faa0e8d179aa014e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paulzi/yii2-sortable/zipball/2d51e8a923acb4cc385e8d28faa0e8d179aa014e",
+                "reference": "2d51e8a923acb4cc385e8d28faa0e8d179aa014e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "require-dev": {
+                "phpunit/dbunit": "~1.0",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "paulzi\\sortable\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PaulZi",
+                    "email": "pavel.zimakoff@gmail.com"
+                }
+            ],
+            "description": "Sortable Behavior for Yii2",
+            "keywords": [
+                "sortable",
+                "yii2"
+            ],
+            "time": "2016-08-31 10:37:13"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -501,6 +913,130 @@
             "time": "2017-02-13 09:07:58"
         },
         {
+            "name": "symfony/polyfill-mbstring",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/e79d363049d1c2128f133a2667e4f4190904f7f4",
+                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2016-11-14 01:06:16"
+        },
+        {
+            "name": "symfony/translation",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/translation.git",
+                "reference": "fc74a95c8aed8029e1311a9b6c177e94c338027d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/fc74a95c8aed8029e1311a9b6c177e94c338027d",
+                "reference": "fc74a95c8aed8029e1311a9b6c177e94c338027d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "conflict": {
+                "symfony/config": "<2.8",
+                "symfony/yaml": "<3.3"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/config": "~2.8|~3.0",
+                "symfony/intl": "^2.8.18|^3.2.5",
+                "symfony/yaml": "~3.3"
+            },
+            "suggest": {
+                "psr/log": "To use logging capability in translator",
+                "symfony/config": "",
+                "symfony/yaml": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Translation\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Translation Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-03-21 21:44:47"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "dev-master",
             "source": {
@@ -549,6 +1085,340 @@
                 "environment"
             ],
             "time": "2017-02-03 22:05:04"
+        },
+        {
+            "name": "yii2mod/yii2-behaviors",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yii2mod/yii2-behaviors.git",
+                "reference": "a9a09280c02cb3e0b6ff3d7b4b649b8e13a655f1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yii2mod/yii2-behaviors/zipball/a9a09280c02cb3e0b6ff3d7b4b649b8e13a655f1",
+                "reference": "a9a09280c02cb3e0b6ff3d7b4b649b8e13a655f1",
+                "shasum": ""
+            },
+            "require": {
+                "nesbot/carbon": "~1.0",
+                "yiisoft/yii2": ">=2.0.5"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "yii2mod\\behaviors\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dmitry Semenov",
+                    "email": "disemx@gmail.com"
+                },
+                {
+                    "name": "Igor Chepurnoy",
+                    "email": "igorzfort@gmail.com"
+                }
+            ],
+            "description": "Collection of useful behaviors for Yii Framework 2.0",
+            "keywords": [
+                "yii2",
+                "yii2 behaviors"
+            ],
+            "time": "2016-12-12 22:48:12"
+        },
+        {
+            "name": "yii2mod/yii2-cms",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yii2mod/yii2-cms.git",
+                "reference": "3993b84c7d389a6c2822c60172842a69b3c562ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yii2mod/yii2-cms/zipball/3993b84c7d389a6c2822c60172842a69b3c562ba",
+                "reference": "3993b84c7d389a6c2822c60172842a69b3c562ba",
+                "shasum": ""
+            },
+            "require": {
+                "asofter/yii2-imperavi-redactor": "*",
+                "php": ">=5.5",
+                "yii2mod/yii2-comments": "*",
+                "yii2mod/yii2-editable": "*",
+                "yii2mod/yii2-enum": "*",
+                "yii2mod/yii2-toggle-column": "*",
+                "yiisoft/yii2": "*"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "yii2mod\\cms\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dmitry Semenov",
+                    "email": "disemx@gmail.com"
+                },
+                {
+                    "name": "Igor Chepurnoy",
+                    "email": "igorzfort@gmail.com"
+                }
+            ],
+            "description": "Yii2 CMS extension",
+            "keywords": [
+                "extension",
+                "yii2"
+            ],
+            "time": "2016-12-12 16:30:06"
+        },
+        {
+            "name": "yii2mod/yii2-comments",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yii2mod/yii2-comments.git",
+                "reference": "6b239d32af63780df44bca636b87f7247719d31c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yii2mod/yii2-comments/zipball/6b239d32af63780df44bca636b87f7247719d31c",
+                "reference": "6b239d32af63780df44bca636b87f7247719d31c",
+                "shasum": ""
+            },
+            "require": {
+                "asofter/yii2-imperavi-redactor": "*",
+                "paulzi/yii2-adjacency-list": "^2.0",
+                "php": ">=5.5",
+                "yii2mod/yii2-behaviors": "*",
+                "yii2mod/yii2-enum": "*",
+                "yii2mod/yii2-moderation": "*",
+                "yiisoft/yii2": ">=2.0.8"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "yii2mod\\comments\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Igor Chepurnoy",
+                    "email": "igorzfort@gmail.com"
+                }
+            ],
+            "description": "Comments module for Yii2",
+            "keywords": [
+                "yii2",
+                "yii2-comments",
+                "yii2-comments-module",
+                "yii2-manage-comments"
+            ],
+            "time": "2017-03-14 08:57:08"
+        },
+        {
+            "name": "yii2mod/yii2-editable",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yii2mod/yii2-editable.git",
+                "reference": "8b66bfd73e986f53649bccab6663fc9b10dbeb0c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yii2mod/yii2-editable/zipball/8b66bfd73e986f53649bccab6663fc9b10dbeb0c",
+                "reference": "8b66bfd73e986f53649bccab6663fc9b10dbeb0c",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/x-editable": "*",
+                "yiisoft/yii2": "*"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "yii2mod\\editable\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Igor Chepurnoi",
+                    "email": "igorzfort@gmail.com"
+                }
+            ],
+            "description": "Yii2 editable field extension",
+            "keywords": [
+                "yii2",
+                "yii2 editable",
+                "yii2 editable column",
+                "yii2 editable field"
+            ],
+            "time": "2017-01-01 15:18:57"
+        },
+        {
+            "name": "yii2mod/yii2-enum",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yii2mod/yii2-enum.git",
+                "reference": "b5552ded0f3f4d37cf27e13a02dfe034859c2591"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yii2mod/yii2-enum/zipball/b5552ded0f3f4d37cf27e13a02dfe034859c2591",
+                "reference": "b5552ded0f3f4d37cf27e13a02dfe034859c2591",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "yii2mod\\enum\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dmitry Semenov",
+                    "email": "disemx@gmail.com"
+                }
+            ],
+            "description": "Yii2 Enumerable helpers",
+            "keywords": [
+                "enumerable helper",
+                "yii2",
+                "yii2 enum"
+            ],
+            "time": "2017-01-10 07:09:33"
+        },
+        {
+            "name": "yii2mod/yii2-moderation",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yii2mod/yii2-moderation.git",
+                "reference": "f693157961c002bb4f361649fa445a121eaed4bd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yii2mod/yii2-moderation/zipball/f693157961c002bb4f361649fa445a121eaed4bd",
+                "reference": "f693157961c002bb4f361649fa445a121eaed4bd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5",
+                "yii2mod/yii2-enum": "*",
+                "yiisoft/yii2": ">=2.0.8"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "yii2mod\\moderation\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Igor Chepurnoy",
+                    "email": "igorzfort@gmail.com"
+                }
+            ],
+            "description": "A simple Content Moderation System for Yii2 that allows you to Approve or Reject resources like posts, comments, etc.",
+            "keywords": [
+                "content-moderation",
+                "moderation",
+                "moderation-system",
+                "yii2"
+            ],
+            "time": "2017-02-18 21:39:08"
+        },
+        {
+            "name": "yii2mod/yii2-toggle-column",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yii2mod/yii2-toggle-column.git",
+                "reference": "8481b675686e7f80ae79d0994f672fb0ae8fb81c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yii2mod/yii2-toggle-column/zipball/8481b675686e7f80ae79d0994f672fb0ae8fb81c",
+                "reference": "8481b675686e7f80ae79d0994f672fb0ae8fb81c",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "yii2mod\\toggle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Igor Chepurnoy",
+                    "email": "igorzfort@gmail.com"
+                }
+            ],
+            "description": "Provides a toggle data column and action",
+            "keywords": [
+                "column",
+                "extension",
+                "toggle",
+                "yii2"
+            ],
+            "time": "2017-03-03 16:35:30"
         },
         {
             "name": "yiisoft/yii2",
@@ -1231,6 +2101,47 @@
             ],
             "description": "BDD assertion library for PHPUnit",
             "time": "2017-01-09 10:58:51"
+        },
+        {
+            "name": "developeruz/yii2-db-rbac",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/developeruz/yii2-db-rbac.git",
+                "reference": "67a2b4272799ede6aff5da63a2b041a15d5c43e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/developeruz/yii2-db-rbac/zipball/67a2b4272799ede6aff5da63a2b041a15d5c43e3",
+                "reference": "67a2b4272799ede6aff5da63a2b041a15d5c43e3",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "developeruz\\db_rbac\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Elvira Sheina",
+                    "email": "elleuz@gmail.com",
+                    "homepage": "http://developer.uz"
+                }
+            ],
+            "description": "Dynamic control of access rights in YII2",
+            "keywords": [
+                "rbac",
+                "yii"
+            ],
+            "time": "2017-02-11 08:59:09"
         },
         {
             "name": "dmstr/yii2-adminlte-asset",
@@ -3091,65 +4002,6 @@
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
             "time": "2017-02-21 10:07:34"
-        },
-        {
-            "name": "symfony/polyfill-mbstring",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/e79d363049d1c2128f133a2667e4f4190904f7f4",
-                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "suggest": {
-                "ext-mbstring": "For best performance"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Mbstring\\": ""
-                },
-                "files": [
-                    "bootstrap.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony polyfill for the Mbstring extension",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "compatibility",
-                "mbstring",
-                "polyfill",
-                "portable",
-                "shim"
-            ],
-            "time": "2016-11-14 01:06:16"
         },
         {
             "name": "symfony/yaml",

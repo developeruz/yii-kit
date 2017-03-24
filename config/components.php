@@ -45,4 +45,13 @@ return [
     'authManager' => [
         'class' => 'yii\rbac\DbManager',
     ],
+
+    'plugins' => [
+        'class' => lo\plugins\components\PluginsManager::class,
+        'appId' => 1
+    ],
+
+    'view' => [
+        'class' => lo\plugins\components\View::class,
+    ]
 ];

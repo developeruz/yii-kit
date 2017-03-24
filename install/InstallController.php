@@ -55,6 +55,12 @@ class InstallController extends \yii\web\Controller
         $console->runAction('user/create', [$installForm->root_email, $installForm->root_login, $installForm->root_password]);
         $console->runAction('user/confirm', [$installForm->root_email]);
 
+//        $console->runAction('migrate',
+//            ['migrationPath' => '@vendor/loveorigami/yii2-plugins-system/src/migrations', 'interactive' => false]);
+
+        $console->runAction('migrate',
+            ['migrationPath' => '@vendor/yii2mod/yii2-comments/migrations', 'interactive' => false]);
+
         $user = User::find()->where(['email' => $installForm->root_email])->one();
         $role = Yii::$app->authManager->createRole('admin');
         $role->description = Yii::t('app', 'Admin');
